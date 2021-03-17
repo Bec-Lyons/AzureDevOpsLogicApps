@@ -7,13 +7,13 @@ variables:
   value: dev
 # TODO: provide an email address for the ExampleWorkflow to an send mail to
 - name: toEmailAddress
-  value: ''
+  value: 'relyons@microsoft.com'
 
 resources:
   pipelines:
   - pipeline: cipipeline
     # TODO: Update with the name of your CI pipeline
-    source: ''
+    source: '(classic) CI'
     trigger:
       branches:
       - main
